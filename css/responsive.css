@@ -1,0 +1,13 @@
+@media(max-width:390px){
+    .menu{
+        width: 375px;
+        height: 1800px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    ul{
+        display: flex;
+        flex-direction: column;
+    }
+}

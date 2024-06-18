@@ -1,0 +1,54 @@
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: "Public Sans", sans-serif;
+    width: 1440px;
+    height: 690px;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.paint{
+    width: 335px;
+    height: 430px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    margin: 5px;
+}
+
+h2{
+    font-size: 30px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-left: 20px;
+}
+
+p{
+    font-size: 17px;
+    font-weight: 300;
+    color: #FFFFFF;
+    margin-bottom: 50px;
+    margin-left: 20px;
+}
+
+.rome{
+    background-image: url(../src/rome.png);
+}
+
+.boat{
+    background-image: url(../src/boat.png);
+}
+
+.sand{
+    background-image: url(../src/sand-and-sea.png);
+}
+
+.night{
+    background-image: url(../src/starry-night.png);
+}
